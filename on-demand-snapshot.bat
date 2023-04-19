@@ -35,7 +35,7 @@ HOST_QUERY=$(curl -X GET \
         | jq -r '.hostName')
 
 if [ $(echo "$HOST_QUERY") != "$HOST_NAME" ]; then
-    echo "Host $HOST_NAME not found on Rubrik system, exiting"i
+    echo "Host $HOST_NAME not found on Rubrik system, exiting"
     exit 1
 else
     echo "Fileset of Proxy VM $HOST_NAME found"
