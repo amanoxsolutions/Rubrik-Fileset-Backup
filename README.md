@@ -9,7 +9,8 @@ This script makes a fileset backup from a host via shell script. This was develo
 - The Fileset should be assigned with the correct SLA Domain
 
 ### Important to know
-The API Token can be only valid for maximum 365 days. You need to change the token every year. 
+- The API Token can be only valid for maximum 365 days. You need to change the token every year. 
+- A Fileset should be assigned to a VM. The Fileset should not be assigned to more than one VM.
 
 ### Explanation	
 The following fixed variables must be included:
